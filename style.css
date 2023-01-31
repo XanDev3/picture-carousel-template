@@ -1,0 +1,55 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid black;
+    position: relative;
+    
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    border: 20px solid transparent;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#prevBtn:hover{
+    border: 20px solid rgba(128, 128, 128);
+    background-color: rgb(128, 128, 128);
+    border-radius: 50%;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+    right:5%;
+    font-size: 30px;
+    color: white;
+    border: 20px solid transparent;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#nextBtn:hover{
+    border: 20px solid rgba(128, 128, 128);
+    background-color: rgb(128, 128, 128);
+    border-radius: 50%;
+}
